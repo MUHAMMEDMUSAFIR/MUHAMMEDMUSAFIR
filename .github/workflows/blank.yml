@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int x, y;
+
+    // 2 is assigned to x
+    x = 2;
+
+    // 7 is assigned to y
+    y = 7;
+
+    cout << "X = " << x << endl;
+    cout << "Y = " << y << endl;
+    cout << "\nAfter x += y;" << endl;
+
+    // assigning the sum of x and y to a
+    x += y;  // x = x +b
+    cout << "X= " << x << endl;
+    int a, b;
+    a = 3;
+    b = 5;
+    bool result;
+
+    result = (a == b);   // false
+    cout << "3 == 5 is " << result << endl;
+
+    result = (a != b);  // true
+    cout << "3 != 5 is " << result << endl;
+
+    result = a > b;   // false
+    cout << "3 > 5 is " << result << endl;
+
+    result = a < b;   // true
+    cout << "3 < 5 is " << result << endl;
+
+    result = a >= b;  // false
+    cout << "3 >= 5 is " << result << endl;
+
+    result = a <= b;  // true
+    cout << "3 <= 5 is " << result << endl;
+result = (3 != 5) && (3 < 5);     // true
+    cout << "(3 != 5) && (3 < 5) is " << result << endl;
+result = (3 == 5) || (3 > 5);    // false
+    cout << "(3 == 5) || (3 > 5) is " << result << endl;
+
+    result = !(5 == 2);    // true
+    cout << "!(5 == 2) is " << result << endl;
+
+    return 0;
+}
